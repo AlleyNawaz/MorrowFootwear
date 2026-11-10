@@ -1,0 +1,58 @@
+export const helpArticles = [
+  {
+    slug: "orders",
+    title: "Find a demo order",
+    copy: "Complete checkout using sample details. The receipt is saved in this tab. Use its reference and matching email on the order-status page. Another tab or a cleared session cannot look it up. No shipment is created.",
+    href: "/order-status",
+    action: "Look up an order",
+  },
+  {
+    slug: "returns",
+    title: "Try the return journey",
+    copy: "Find a demo order, choose its items, select a reason and request a sample refund or exchange. The status becomes requested. No real label, refund or exchange is issued; do not send a parcel.",
+    href: "/returns/start",
+    action: "Start a demo return",
+  },
+  {
+    slug: "shipping",
+    title: "Understand shipping and totals",
+    copy: "Shipping charges, promotion rules and the 8.25% tax calculation are sample data. Standard and express choices demonstrate the calculation; they do not promise a delivery date. Production regions, tax and carrier policies require approval.",
+    href: "/shipping",
+    action: "Read the policy placeholder",
+  },
+  {
+    slug: "fit",
+    title: "Measure and compare sizes",
+    copy: "Measure both feet with the socks you plan to wear. Use the longer measurement and check width as well as length. The size chart is sample guidance, not a fit guarantee. US product sizes use the men’s/unisex scale.",
+    href: "/size-guide",
+    action: "Open the size guide",
+  },
+  {
+    slug: "payments",
+    title: "What happens at checkout?",
+    copy: "No card information is requested and no bank charge is made. The final action saves a receipt in session storage. A real store would need a configured payment provider and server-verified orders before accepting money.",
+    href: "/checkout",
+    action: "Open demo checkout",
+  },
+  {
+    slug: "privacy",
+    title: "Manage your local data",
+    copy: "Cart, wishlist, size preferences, comparisons and searches use browser storage. Sample receipts and return requests use this tab’s session storage. Clear Morrow data from privacy controls. Optional analytics collection and external delivery are disabled.",
+    href: "/cookies",
+    action: "Manage browser data",
+  },
+  {
+    slug: "care",
+    title: "Care for a pair thoughtfully",
+    copy: "Product-specific instructions take priority. For general care, gently brush dry dirt away, spot-clean with a mild solution, and air-dry away from direct heat. This prototype’s material compositions are not supplier-verified.",
+    href: "/care",
+    action: "Read care guidance",
+  },
+  {
+    slug: "stores",
+    title: "Are there real Morrow stores?",
+    copy: "No. Morrow is a fictional concept brand. Store locations shown in the prototype are sample content. There is no live stock check, appointment or pickup service.",
+    href: "/stores",
+    action: "View the sample locator",
+  },
+];
